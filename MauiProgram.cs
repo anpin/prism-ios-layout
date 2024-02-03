@@ -1,8 +1,4 @@
 ﻿using Microsoft.Extensions.Logging;
-using Prism.Navigation;
-using Prism;
-using Prism.Navigation.Builder;
-using Prism.Navigation.Builder;
 namespace ios_layout;
 
 public static class MauiProgram
