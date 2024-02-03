@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    x:Class="ios_layout.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:ios_layout"
+    xmlns:p="http://prismlibrary.com"
+
+    x:DataType="local:IShellModel"
+    Shell.FlyoutBehavior="Disabled"
+    Title="ios_layout">
+
+    <Button Text="Click me"
+            Command="{p:NavigateTo '/NavigationPage/p'}" />
+
+</ContentPage>
