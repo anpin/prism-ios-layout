@@ -5,9 +5,8 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:local="clr-namespace:ios_layout"
     xmlns:p="http://prismlibrary.com"
-
     x:DataType="local:IShellModel"
-    Shell.FlyoutBehavior="Disabled"
+    BackgroundColor="Aquamarine"
     Title="ios_layout">
 
     <Button Text="Click me"
